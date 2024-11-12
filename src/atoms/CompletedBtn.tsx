@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
 type Props = {
-    children: string; // children should be a string representing the task's completion status.
+    children: string; 
 }
 
 const CompletedBtn = ({ children }: Props) => {
